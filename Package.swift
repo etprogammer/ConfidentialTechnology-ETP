@@ -22,6 +22,6 @@ let package = Package(
         .binaryTarget(
             name: "ConfidentialTechnology",
             url: "https://etprogrammer-secret-intelligence-bucket.s3.us-west-2.amazonaws.com/ConfidentialTechnology.xcframework.zip",
-            checksum: "782da480112a03de4babc43cfb00059ffa9e77570eeeadbe1c20f195dafd76c0")
+            checksum: "b43c145e5a2e8dc8306ab368885c0831589c54477698b5797f6077c4aa7e3b4c")
     ]
 )
