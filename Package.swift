@@ -8,7 +8,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "ConfidentialTechnologyPackage-ETP",
+            name: "ConfidentialTechnologyPackage",
             targets: ["ConfidentialTechnology"]
         ),
     ],
@@ -21,7 +21,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "ConfidentialTechnology",
-            url: "https://etprogrammer-secret-intelligence-bucket.s3.us-west-2.amazonaws.com/ConfidentialTechnology.zip",
-            checksum: "6fbbe01b8321e50cdc42c468d7e0a0ca9fcc915aaa7ddfc4bf7573012b692231")
+            url: "https://etprogrammer-secret-intelligence-bucket.s3.us-west-2.amazonaws.com/ConfidentialTechnology.xcframework.zip",
+            checksum: "782da480112a03de4babc43cfb00059ffa9e77570eeeadbe1c20f195dafd76c0")
     ]
 )
